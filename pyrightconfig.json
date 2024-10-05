@@ -1,0 +1,24 @@
+{
+  "include": [
+    "*"
+  ],
+
+  "exclude": [
+    "**/__pycache__"
+  ],
+
+  "defineConstant": {
+    "DEBUG": true
+  },
+
+  "reportMissingImports": "error",
+  "reportMissingTypeStubs": false,
+
+  "pythonPlatform": "Linux",
+
+  "executionEnvironments": [
+    {
+      "root": "src"
+    }
+  ]
+}
